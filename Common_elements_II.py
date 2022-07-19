@@ -16,5 +16,7 @@ for i in u:
 for j in v:
     if j not in u:
         p.append(j)
-for i in p:
-    print(i,end=' ')
+print(*p,end=' ')
+    
+        
+        
