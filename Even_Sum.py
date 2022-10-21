@@ -1,7 +1,7 @@
 n=int(input())
-s=list(map(int,input().split()))
-x=0
-for i in s:
-    if(i%2==0):
-        x+=i
-print(x)
+positions=list(map(int,input().split()))
+d=[]
+for i in positions:
+    if i%2==0:
+        d.append(i)
+print(sum(d))
