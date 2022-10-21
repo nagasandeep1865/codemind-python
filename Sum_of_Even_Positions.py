@@ -1,7 +1,9 @@
 n=int(input())
-a=list(map(int,input().split()))
-x=0
-for i in range(0,n):
-    if(i%2==0):
-        x+=a[i]
-print(x)
+l=list(map(int,input().split()))
+s=0
+g=0
+for i in range(0,len(l)):
+    if i%2==0:
+        g+=l[i]
+print(g)
+        
